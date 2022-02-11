@@ -1,0 +1,63 @@
+/* Home */
+
+.home {
+    margin-top: 83px;
+}
+.bank-name {
+    color: #22577e;
+    margin: 15% 20px 20px 0;
+    font-size: 70px;
+}
+.heading-para {
+    margin-top: 10px;
+}
+.content {
+    margin: 30px auto;
+}
+.banking-gif {
+    width: 600px;
+}
+.home,
+.services {
+    padding: 3px 80px;
+    height: 50%;
+}
+
+/* Form */
+
+.form-control {
+    margin: 10px auto;
+}
+/* Services */
+.h2 {
+    padding: 30px 0;
+}
+.card {
+    background-color: #f6f2d4;
+    border: none;
+}
+.card:hover {
+    text-decoration: none;
+}
+.services-box {
+    margin: 20px auto;
+    color: #f6f2d4;
+    width: 250px;
+    height: 250px;
+    background: rgba(34, 87, 126, 0.7);
+    box-shadow: 0 8px 12px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.services-box:hover {
+    background-color: #22577e;
+}
+.service-img {
+    margin: 40px auto 20px;
+    width: 100px;
+}
+.text {
+    font-size: 22px;
+}

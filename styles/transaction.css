@@ -1,0 +1,42 @@
+.transfer {
+    margin: 50px 0 10%;
+}
+.box {
+    background: rgba(46, 76, 109, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 68%;
+    margin: 10px auto;
+    height: 40%;
+    color: #f6f2d4;
+}
+.drpdown {
+    width: 250px;
+    margin: 0 auto;
+}
+.col-lg-6 {
+    text-align: center;
+    margin: 10px 0;
+}
+.row {
+    margin: 50px auto 30px;
+}
+.ip {
+    padding-left: 20px;
+}
+.row2 {
+    display: block;
+    margin: 0 auto 20px;
+}
+.amt {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.btn-info {
+    width: 70%;
+    margin: 50px auto;
+}

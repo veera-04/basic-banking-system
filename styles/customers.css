@@ -1,0 +1,36 @@
+.customers {
+    border: 2.5px solid #22577e;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px auto 70px;
+    display: inline-block;
+    background-color: #22577e;
+    height: 50%;
+    overflow: auto;
+}
+
+tr:hover td {
+    background-color: #5584ac;
+}
+tr:hover {
+    color: #f6f2d4;
+}
+td {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.button {
+    font-size: 16px;
+    height: 25px;
+    width: 50px;
+    vertical-align: text-top;
+    background-color: #f6f2d4;
+    color: #22577e;
+    border: 0.5px solid #22577e;
+    border-radius: 3px;
+}
+.button:hover {
+    color: #f6f2d4;
+    background-color: #22577e;
+}

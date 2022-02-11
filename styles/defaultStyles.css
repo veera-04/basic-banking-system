@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&family=Rowdies&family=Work+Sans:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #2e4c6d;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    background-color: #f6f2d4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Red Hat Display", sans-serif;
+}
+h2 {
+    font-size: 40px;
+}
+hr {
+    border: none;
+    border-top: 4px dotted #22577e;
+    width: 30%;
+    margin: 75px auto 10px;
+}
+table {
+    width: 100%;
+    margin: 1px auto;
+}
+thead {
+    color: #f6f2d4;
+    font-size: 24px;
+    height: 50px;
+}
+th {
+    background-color: #22577e;
+    position: sticky;
+    top: 0;
+}
+td {
+    height: 50px;
+    background-color: #f6f2d4;
+    border-bottom: 0.5px solid #22577e;
+}
+.center {
+    text-align: center;
+}
+.heading {
+    margin: 100px auto 20px;
+}
+.hr {
+    display: inline-block;
+    width: 8%;
+    border-top: 3px solid #22577e;
+    vertical-align: middle;
+}
+.title {
+    display: inline-block;
+}
+/* Navbar */
+nav {
+    background-color: #5584ac;
+}
+.navbar {
+    padding: 8px 80px;
+}
+.nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+.navbar-brand {
+    margin-right: 30px;
+    font-size: 30px;
+    font-family: "Rowdies", cursive;
+}
+.nav-link {
+    margin: 0 18px;
+}
+.nav-link:hover {
+    background-color: #fff;
+    color: #4b928c;
+    outline: solid white;
+    border-radius: 5px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+
+/* Footer */
+
+footer {
+    background-color: #22577e;
+    height: 200px;
+    width: 100%;
+    padding: 50px 0;
+    color: #8c99a5;
+}
+.acct:hover {
+    color: #f6f2d4;
+}
+.acct {
+    margin: 30px;
+    color: #8c99a5;
+}
+.pageContent {
+    min-height: calc(100vh - 40px);
+}
